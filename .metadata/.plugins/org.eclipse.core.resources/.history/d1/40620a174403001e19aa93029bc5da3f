@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	//1. name값이 user_id인 쿠키를 찾는다.
+	Cookie[] arr = request.getCookies(); //한개가 아닌 것에 주의
+	String name = "";
+	if(arr != null){
+		
+		for(Cookie c : arr){
+			
+			if(c.getname.equals("user_id")){//찾는 쿠키가 있음
+				name = c.getValue();//쿠키 값
+			}
+		}
+	}else ()
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>결과페이지</h3>
+	<!-- 
+	user_id 쿠키를 확인해서 "xxx님 환영합니다"를 화면에 출력
+	 -->
+	 <%=name %>님 환영합니다
+</body>
+</html>

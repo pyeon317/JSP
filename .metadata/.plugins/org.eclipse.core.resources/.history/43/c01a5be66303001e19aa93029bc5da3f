@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%
+    //applicatio객체는 session과 사용방법이 동일합니다.
+    session.setAttribute("count", 1);
+    
+    //누적하는 기능
+    
+    
+    //
+    int count = (int)session.getAttribute("count");
+    %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	결과 : <%=count %>
+	2606 4358
+	
+</body>
+</html>

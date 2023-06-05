@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%
+    //세션은 서버와의 정보를 유지하기 위한 수단으로 서버에서 생성하고, 서버에서 저장합니다.
+    session.setAttribute("user_id","xxx123" );//(키,값(오브젝트))
+    session.setAttribute("user_name", "홍순자" );//(키,값)
+    
+    
+    %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

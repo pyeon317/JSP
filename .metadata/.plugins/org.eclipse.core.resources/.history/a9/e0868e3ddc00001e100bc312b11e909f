@@ -1,0 +1,9 @@
+package com.demo.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+public class DemoServlet extends HttpServlet{
+
+	//get, post메서드를 오버라이드
+	
+}
