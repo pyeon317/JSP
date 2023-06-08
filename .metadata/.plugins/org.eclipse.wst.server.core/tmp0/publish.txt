@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Wed Jun 07 16:50:54 KST 2023
+#Thu Jun 08 21:39:22 KST 2023
+org.eclipse.jst.jee.server\:JSPWeb1=C\:\\Users\\user\\Desktop\\course\\jsp\\apache-tomcat-9.0.75\\wtpwebapps\\JSPWeb1
 org.eclipse.jst.jee.server\:JSPBasic=C\:\\Users\\user\\Desktop\\course\\jsp\\apache-tomcat-9.0.75\\wtpwebapps\\JSPBasic
