@@ -1,0 +1,11 @@
+package com.demo.controller;
+
+import javax.servlet.http.HttpServlet;
+
+//1.확장자 패턴 .test로 끝나면 전부다 요청을 붙여줍니다.
+
+public class TestController extends HttpServlet{
+
+	
+
+}

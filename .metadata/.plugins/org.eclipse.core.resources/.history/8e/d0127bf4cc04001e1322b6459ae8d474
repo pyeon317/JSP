@@ -1,0 +1,12 @@
+package com.demo.bean;
+
+public class Member {
+	
+	/*
+	 * 자바빈은 form과 DB의 통신과정에서 변수처리를 쉽게하기 위해서 사용합니다.
+	 * 자바빈 = 서버에 미리 생성되어 있는 객체
+	 * 
+	 */
+	
+	private 
+}

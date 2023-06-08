@@ -1,6 +1,7 @@
 package com.demo.servlet;
 
 import java.io.IOException;
+import java.util.Date;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -26,7 +27,8 @@ public class ForwardServlet extends HttpServlet {
 		
 		//리다이렉트
 		//response.sendRedirect("actionTag/forward_ex02_ok.jsp");//리퀘스트를 하려면 리퀘스트~,리다이렉트를 하려면 리스폰스~
-		
+		request.setAttribute("name", "홍길동");
+		request.setAttribute("date", new Date());
 		//포워드
 		//RequestDispatcher dp = request.getRequestDispatcher("actionTag/forward_ex02_ok.jsp");
 		//dp.forward(request, response);

@@ -1,0 +1,24 @@
+<%@page import="com.demo.bean.Member"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%
+    //request에 있는 값 참조
+    Member mem = new Member("aaa","1234","이순신");
+    
+    request.setAttribute("mem", mem);
+    request.setAttribute("name", "홍길동");
+    %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	${name }<br/>
+	
+	
+	
+</body>
+</html>
