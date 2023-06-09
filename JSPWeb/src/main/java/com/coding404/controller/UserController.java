@@ -144,7 +144,7 @@ public class UserController extends HttpServlet {
 			} else { //실패
 				response.sendRedirect("user_modify.user");
 			}
-			
+			//회원탈퇴 - delete
 		}
 		
 		

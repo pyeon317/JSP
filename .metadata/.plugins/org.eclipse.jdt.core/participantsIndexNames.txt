@@ -35,6 +35,8 @@ C:\Users\user\Desktop\course\jsp\workspace\.metadata\.plugins\org.eclipse.jst.js
 \JSPWeb\src\main\java
 C:\Users\user\Desktop\course\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2494261123.index
 \JSPWEB\src\main\java
+C:\Users\user\Desktop\course\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2072970388.index
+\JSPWeb\src\main\java
 C:\Users\user\Desktop\course\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\473700869.index
 \JSPWeb1\src\main\java
 C:\Users\user\Desktop\course\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3865960498.index
